@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+<libro id="0">
+    <titulo>Ubik</titulo>
+    <autor>Philip K. Dick</autor>
+</libro>
+ <libro id="1">
+    <titulo>La fundación</titulo>
+   <autor>Isaac Asimov</autor>
+  </libro>
+  <libro id="2">
+    <titulo>El señor de los anillos</titulo>
+    <autor>J.R.R. Tolkien</autor>
+  </libro>
+	</libros>

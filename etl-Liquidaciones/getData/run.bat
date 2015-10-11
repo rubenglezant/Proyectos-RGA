@@ -1,0 +1,64 @@
+set FECHA=%1
+set DIR=C:\M\Ejecucion\CTM\Liquidaciones\MAV
+set DIRMAV=/home/user/ctm/mav/mav-mov
+
+echo -y | plink -pw ctm root@10.40.21.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.21.2.xml
+echo -y | plink -pw ctm root@10.40.21.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.21.3.xml
+echo -y | plink -pw ctm root@10.40.20.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.20.2.xml
+echo -y | plink -pw ctm root@10.40.20.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.20.3.xml
+echo -y | plink -pw ctm root@10.40.18.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.18.2.xml
+echo -y | plink -pw ctm root@10.40.18.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.18.3.xml
+echo -y | plink -pw ctm root@10.40.17.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.17.2.xml
+echo -y | plink -pw ctm root@10.40.17.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.17.3.xml
+echo -y | plink -pw ctm root@10.40.16.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.16.2.xml
+echo -y | plink -pw ctm root@10.40.16.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.16.3.xml
+echo -y | plink -pw ctm root@10.40.15.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.15.2.xml
+echo -y | plink -pw ctm root@10.40.15.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.15.3.xml
+echo -y | plink -pw ctm root@10.40.13.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.13.2.xml
+echo -y | plink -pw ctm root@10.40.13.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.13.3.xml
+echo -y | plink -pw ctm root@10.40.13.4  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.13.4.xml
+echo -y | plink -pw ctm root@10.40.12.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.12.2.xml
+echo -y | plink -pw ctm root@10.40.12.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.12.3.xml
+echo -y | plink -pw ctm root@10.40.11.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.11.2.xml
+echo -y | plink -pw ctm root@10.40.11.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.11.3.xml
+echo -y | plink -pw ctm root@10.40.10.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.10.2.xml
+echo -y | plink -pw ctm root@10.40.10.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.10.3.xml
+echo -y | plink -pw ctm root@10.40.9.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.9.2.xml
+echo -y | plink -pw ctm root@10.40.9.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.9.3.xml
+echo -y | plink -pw ctm root@10.40.8.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.8.2.xml
+echo -y | plink -pw ctm root@10.40.8.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.8.3.xml
+echo -y | plink -pw ctm root@10.40.7.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.7.2.xml
+echo -y | plink -pw ctm root@10.40.7.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.7.3.xml
+echo -y | plink -pw ctm root@10.40.6.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.6.2.xml
+echo -y | plink -pw ctm root@10.40.6.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.6.3.xml
+echo -y | plink -pw ctm root@10.40.5.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.5.2.xml
+echo -y | plink -pw ctm root@10.40.5.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.5.3.xml
+echo -y | plink -pw ctm root@10.40.4.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.4.2.xml
+echo -y | plink -pw ctm root@10.40.4.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.4.3.xml
+echo -y | plink -pw ctm root@10.40.3.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.3.2.xml
+echo -y | plink -pw ctm root@10.40.3.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.3.3.xml
+echo -y | plink -pw ctm root@10.40.2.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.2.2.xml
+echo -y | plink -pw ctm root@10.40.2.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.2.3.xml
+echo -y | plink -pw ctm root@10.40.1.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.1.2.xml
+echo -y | plink -pw ctm root@10.40.1.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.1.3.xml
+echo -y | plink -pw ctm root@10.40.1.4  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.1.4.xml
+echo -y | plink -pw ctm root@10.40.1.5  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.1.5.xml
+echo -y | plink -pw ctm root@10.40.1.6  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.1.6.xml
+echo -y | plink -pw ctm root@10.40.22.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.22.2.xml
+echo -y | plink -pw ctm root@10.40.22.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.22.3.xml
+echo -y | plink -pw ctm root@10.40.23.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.23.2.xml
+echo -y | plink -pw ctm root@10.40.23.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.23.3.xml
+echo -y | plink -pw ctm root@10.40.24.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.24.2.xml
+echo -y | plink -pw ctm root@10.40.24.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.24.3.xml
+echo -y | plink -pw ctm root@10.40.25.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.25.2.xml
+echo -y | plink -pw ctm root@10.40.25.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.25.3.xml
+echo -y | plink -pw ctm root@10.40.26.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.26.2.xml
+echo -y | plink -pw ctm root@10.40.26.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.26.3.xml
+echo -y | plink -pw ctm root@10.40.27.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.27.2.xml
+echo -y | plink -pw ctm root@10.40.27.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.27.3.xml
+echo -y | plink -pw ctm root@10.40.28.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.28.2.xml
+echo -y | plink -pw ctm root@10.40.28.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.28.3.xml
+echo -y | plink -pw ctm root@10.40.29.2  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.29.2.xml
+echo -y | plink -pw ctm root@10.40.29.3  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.29.3.xml
+echo -y | plink -pw ctm root@10.40.29.4  -ssh "cat %DIRMAV%/*%FECHA%*" > %DIR%\%FECHA%-MAV-10.40.29.4.xml
+
