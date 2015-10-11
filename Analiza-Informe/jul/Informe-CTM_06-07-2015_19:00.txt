@@ -1,0 +1,10 @@
+Disponibilidad Conexion: 1522920 / 1557484  (0.9778077977045)
+
+------------------- 6. Disponibilidad Ultima Monitorizacion MAVs ------------------
+fechaComienzo
+2015-07-07 04:06:50
+Validaciones	Puerta Abierta	Porc.
+NULL	NULL	NULL
++--------------------------------------------------------------------------------+
++--                               FIN DEL REPORTE                              --+
++--------------------------------------------------------------------------------+

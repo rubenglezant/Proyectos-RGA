@@ -1,0 +1,93 @@
++--------------------------------------------------------------------------------+
++-- Informe de estado del parque BTs y MAVs - Fecha: 12/07/2015 03:00          --+
++--------------------------------------------------------------------------------+
+------------------- 1. Disponibilidad BTs ----------------------------------------
+Periodo: 2015-05-15 21:00:18 - 2015-07-12 00:10:03
+Numero BTs: 109
+Disponibilidad MUEBLE: 809207 / 828979  (0.97614897361694)
+Disponibilidad PUERTAS: 820359 / 828593  (0.99006267250628)
+Disponibilidad FOTOCELULA: 824384 / 828593  (0.99492030466103)
+Disponibilidad VARIADOR: 826938 / 828593  (0.99800263820718)
+Disponibilidad LECTOR_QR_ENTRADA: 826437 / 827387  (0.9988518069537)
+Disponibilidad LECTOR_QR_SALIDA: 826437 / 827387  (0.9988518069537)
+Disponibilidad VTSC_ENTRADA: 827724 / 828979  (0.99848608951493)
+Disponibilidad VTSC_SALIDA: 827860 / 828979  (0.99865014674678)
+
+------------------- 2. Disponibilidad HOY BTs ------------------------------------
+Disponibilidad MUEBLE: 115 / 117  (0.98290598290598)
+Disponibilidad PUERTAS: 116 / 117  (0.99145299145299)
+Disponibilidad FOTOCELULA: 116 / 117  (0.99145299145299)
+Disponibilidad VARIADOR: 116 / 117  (0.99145299145299)
+Disponibilidad LECTOR_QR_ENTRADA: 117 / 117  (1)
+Disponibilidad LECTOR_QR_SALIDA: 117 / 117  (1)
+Disponibilidad VTSC_ENTRADA: 117 / 117  (1)
+Disponibilidad VTSC_SALIDA: 117 / 117  (1)
+
+------------------- 3. Disponibilidad Ultima Monitorizacion BTs -------------------
+Disponibilidad MUEBLE: 0 / 0  ()
+Disponibilidad PUERTAS: 0 / 0  ()
+Disponibilidad FOTOCELULA: 0 / 0  ()
+Disponibilidad VARIADOR: 0 / 0  ()
+Disponibilidad LECTOR_QR_ENTRADA: 0 / 0  ()
+Disponibilidad LECTOR_QR_SALIDA: 0 / 0  ()
+Disponibilidad VTSC_ENTRADA: 0 / 0  ()
+Disponibilidad VTSC_SALIDA: 0 / 0  ()
+
+------------------- 4. Ultima Monitorizacion - BT - CPU y Disco -------------------
+BT con consumo CPU Alto: 
+BT con consumo de espacio disco alto: 
+
+------------------- 5. Disponibilidad MAVs ----------------------------------------
+Periodo: 2015-05-18 01:32:38 - 2015-07-12 00:05:04
+Numero MAVs: 59
+Disponibilidad MAVs: 1580859 / 1616194  (0.97813690683173)
+Disponibilidad PaySystem: 1577123 / 1612352  (0.9781505527329)
+Disponibilidad Printer: 1600399 / 1612352  (0.9925866063986)
+Disponibilidad RFID: 1611208 / 1616195  (0.9969143574878)
+Disponibilidad PLC: 1612326 / 1616195  (0.99760610569888)
+Disponibilidad Conexion: 1616194 / 1660025  (0.97359618078041)
+
+------------------- 6. Disponibilidad Ultima Monitorizacion MAVs ------------------
+Disponibilidad PaySystem: 0 / 0  ()
+Disponibilidad Printer: 0 / 0  ()
+Disponibilidad RFID: 0 / 0  ()
+Disponibilidad PLC: 0 / 0  ()
+
+------------------- 7. Negocio ----------------------------------------------------
+select sum(valor) as valor from dataNeg where (nombre='PASAJ ENTR' or nombre='PASAJ SAL') and Iter=1120
+Validaciones / Aperturas Ultima: 0 / 0  ()
+
+IP		Validaciones	Puerta		Err. COMUN	Por. Error
+ 10.40.10.100	0		0		-0		0
+ 10.40.10.101	0		0		-0		0
+ 10.40.11.100	0		0		-0		0
+ 10.40.11.101	0		0		-0		0
+ 10.40.11.102	0		0		-0		0
+ 10.40.27.100	0						0
+
+------------------- 8. Aperturas ----------------------------------------------------
+
+IP		APP EMBEBIDA	CORE		Err. COMUN
+ 10.40.10.100	0		-0		0
+ 10.40.10.101	0		-0		0
+ 10.40.11.100	0		-2		2
+ 10.40.11.101	0		-0		0
+ 10.40.11.102	0		-0		0
+ 10.40.27.100	0		-0		0
+ 10.40.27.101	0		-0		0
+ 10.40.27.102	0		-0		0
+ 10.40.27.103	0		-0		0
+ 10.40.30.100	0		-0		0
+ 10.40.30.101	0		-0		0
+ 10.40.8.100	0				0
+ 
+
+
+---------------------------- 9. Validaciones / Puerta -----------------------
+fechaComienzo
+2015-07-11 23:58:07
+Validaciones	Puerta Abierta	Porc.
+NULL	NULL	NULL
++--------------------------------------------------------------------------------+
++--                               FIN DEL REPORTE                              --+
++--------------------------------------------------------------------------------+

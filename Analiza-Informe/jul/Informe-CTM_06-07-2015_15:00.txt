@@ -1,0 +1,11 @@
+select sum(valor) as valor from dataNeg where (nombre='PASAJ ENTR' or nombre='PASAJ SAL') and Iter=1052
+Validaciones / Aperturas Ultima: 2 / 2  (0)
+
+IP		Validaciones	Puerta		Err. COMUN	Por. Error
+fechaComienzo
+2015-07-07 04:06:50
+Validaciones	Puerta Abierta	Porc.
+8	8	1
++--------------------------------------------------------------------------------+
++--                               FIN DEL REPORTE                              --+
++--------------------------------------------------------------------------------+
