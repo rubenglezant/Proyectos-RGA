@@ -1,0 +1,34 @@
+Espacio Disco: df -h | grep rootfs | awk {'print $5'}
+ERR RFID: cat /home/user/ctm/mav/logs/*rfid*log* | grep ERR | wc -l
+ERR PLC: cat /home/user/ctm/mav/logs/*PLC*log* | grep ERR | wc -l
+ERR Printer: cat /home/user/ctm/mav/logs/*print*log* | grep ERR | wc -l
+ERR Recarga: cat /home/user/ctm/mav/logs/*GestorRecarga*log* | grep ERR | wc -l
+ERR Control: cat /home/user/ctm/mav/logs/*ProcesoControl*log* | grep ERR | wc -l
+ERR RFID Ayer: cat /home/user/ctm/mav/logs/2015-03-18*rfid*log* | grep ERR | wc -l
+ERR PLC Ayer: cat /home/user/ctm/mav/logs/2015-03-18*PLC*log* | grep ERR | wc -l
+ERR Printer Ayer: cat /home/user/ctm/mav/logs/2015-03-18*print*log* | grep ERR | wc -l
+ERR Recarga Ayer: cat /home/user/ctm/mav/logs/*GestorRecar*2015-03-18*log* | grep ERR | wc -l
+ERR Control Ayer: cat /home/user/ctm/mav/logs/*ProcesoControl*2015-03-18*log* | grep ERR | wc -l
+ERR Core: cat /home/user/ctm/mav/logs/core/*core*log* | grep ERR | wc -l
+ERR Core Ayer: cat /home/user/ctm/mav/logs/core/*core*log* | grep ERR | grep 2015-03-18 | wc -l
+Recargas Ayer:  cat /home/user/ctm/mav/logs/2015-03-18*print*log* | grep "Printing a ticket" | wc -l 
+Tickets Ayer:  cat /home/user/ctm/mav/logs/2015-03-18*print*log* | grep "Printing a text" | wc -l
+
+
+Core: md5sum /var/lib/tomcat7/webapps/mav-core-war.war | awk {'print $1'}
+PLC:  md5sum /home/user/ctm/mav/drivers/plc/plc_mav | awk {'print $1'}
+Printer: md5sum /home/user/ctm/mav/drivers/printer/printer_mav | awk {'print $1'}
+RFID: md5sum /home/user/ctm/mav/drivers/rfid/rfid_mav | awk {'print $1'}
+Pago: md5sum /home/user/ctm/mav/drivers/pago/pago_mav | awk {'print $1'}
+Versiones: md5sum /home/user/ctm/mav/mav-config/Versiones.xml | awk {'print $1'}
+Id MAV: cat /home/user/ctm/mav/mav-properties/config.properties | grep terminalId | awk {'print $3'}
+Id TPV: cat /home/user/ctm/mav/conf/MAV.conf | grep tpv | awk {'print $3'}
+libConfiguracionTarifariaSFM: md5sum /home/user/ctm/mav/lib/libConfiguracionTarifariaSFM.so.1 | awk {'print $1'}
+libCTL_AnalisisRFID: md5sum /home/user/ctm/mav/lib/libCTL_AnalisisRFID.so.1 | awk {'print $1'}
+libNriHidAPI: md5sum /home/user/ctm/mav/lib/libNriHidAPI.so | awk {'print $1'}
+libPaymentManager: md5sum /home/user/ctm/mav/lib/libPaymentManager.so | awk {'print $1'}
+libSRC_Comun: md5sum /home/user/ctm/mav/lib/libSRC_Comun.so.1 | awk {'print $1'}
+
+
+
+

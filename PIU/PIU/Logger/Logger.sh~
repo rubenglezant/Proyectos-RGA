@@ -1,0 +1,3 @@
+tar -cfz log-x-x-x.tgz ../PintarRuta/PintarRuta.log
+
+

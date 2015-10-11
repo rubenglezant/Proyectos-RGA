@@ -1,0 +1,11 @@
+AgentPluginObject: md5sum /home/SFM/bin/AgentPluginObject.so | awk {'print $1'}
+libAgentPluginObject: md5sum /home/SFM/bin/libAgentPluginObject.so | awk {'print $1'}
+Error Core Ayer: cat /home/SFM/bt/logs/core_bt.log* | grep 2015-03-18 | grep ERR | wc -l
+Id. Terminal: cat /home/SFM/bt/properties/config.properties | grep terminalId | awk {'print $3'}
+Liq. Pendientes:  ls -l /home/SFM/data/ficheros_negocio/pendientes/ | wc -l
+Err. Fotocelulas:  cat /home/SFM/log/abiertos/CtlMueble*.log | grep ERROR] | grep FOTOCELULAS | wc -l
+Err. Fraude:  cat /home/SFM/log/abiertos/CtlMueble*.log | grep ERROR] | grep FRAUDE | wc -l
+Operaciones RFID: cat /home/SFM/log/abiertos/AnalisisRFID*.log | grep  CODIGO_OPERACION | wc -l
+Versiones: md5sum /home/SFM/resources/ConfigTarifaria/actual/Versiones.xml | awk {'print $1'}
+WAR: md5sum /var/lib/tomcat7/webapps/bt-core-war.war | awk {'print $1'}
+APP EMBEBIDA: md5sum /home/SFM_BT_QT/SFM_BT_APP | awk {'print $1'}
