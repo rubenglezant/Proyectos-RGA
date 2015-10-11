@@ -59,7 +59,7 @@ M = imaplib.IMAP4_SSL('imap.gmail.com')
 
 try:
     #rv, data = M.login(EMAIL_ACCOUNT, getpass.getpass())
-    rv, data = M.login(EMAIL_ACCOUNT, '4c9TNRdi')
+    rv, data = M.login(EMAIL_ACCOUNT, 'XXXXXXXX')
 except imaplib.IMAP4.error:
     print ("LOGIN FAILED!!! ")
     sys.exit(1)
