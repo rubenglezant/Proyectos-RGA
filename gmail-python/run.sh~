@@ -1,0 +1,5 @@
+cd /home/ruben/Proyectos-RGA/gmail-python
+rm -f datosEnviar.txt
+
+./sendMail.sh
+

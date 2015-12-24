@@ -1,0 +1,2 @@
+insert into dataMAV values('10.40.17.2','PaySystem','Operativo','2015-11-20 21:26:04.490029');
+insert into dataMAV values('10.40.17.2','STATUS MAV','Operativo','2015-11-20 21:26:04.490199');

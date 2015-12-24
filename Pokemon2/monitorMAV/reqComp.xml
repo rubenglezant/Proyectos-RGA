@@ -1,0 +1,6 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:com="http://com.ctm.mav.MAVCommManager">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <com:getComponentStateRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>

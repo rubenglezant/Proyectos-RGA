@@ -1,0 +1,5 @@
+insert into dataMAV values('10.40.17.2','PaySystem','Operativo','2015-11-20 21:26:04.490029');
+insert into dataMAV values('10.40.17.2','Printer','Operativo','2015-11-20 21:26:04.490144');
+insert into dataMAV values('10.40.17.2','RFID','Operativo','2015-11-20 21:26:04.490166');
+insert into dataMAV values('10.40.17.2','PLC','Operativo','2015-11-20 21:26:04.490183');
+insert into dataMAV values('10.40.17.2','STATUS MAV','Operativo','2015-11-20 21:26:04.490199');
